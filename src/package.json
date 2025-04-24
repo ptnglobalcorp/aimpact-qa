@@ -1,0 +1,9 @@
+{
+  "type": "commonjs",
+  "scripts": {
+    "test": "npx bddgen && npx playwright test"
+  },
+  "devDependencies": {
+    "playwright-bdd": "^8.2.1"
+  }
+}

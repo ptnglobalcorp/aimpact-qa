@@ -1,0 +1,30 @@
+.DS_Store
+.vscode
+.idea
+
+# npm
+node_modules
+npm-debug.log
+
+# my
+/dist
+**/.features-gen/**/*.spec.js
+.cache
+test-results
+playwright-report
+blob-report
+/examples/playwright-bdd*.tgz
+/examples/package-lock.json
+/examples/**/cucumber-report
+/todo.txt
+
+/test/**/report.*
+/test/**/actual-reports
+
+/test/reporter-cucumber-merge/features
+/test/reporter-cucumber-merge/check-report
+/test/reporter-cucumber-merge/.features-gen/features/sample.feature.spec.js-snapshots
+
+/examples/**/playwright/.auth
+
+.prototools
